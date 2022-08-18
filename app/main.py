@@ -116,7 +116,48 @@ def recommend():
                         "label": "구경하기",
                         "webLinkUrl": list1[1][-58:-2]
                         },
+
+                        {
+                        "action: "share",
+                        "label": "공유하기"
+                        }
                     ]
+                    },
+                    {
+                    "title": list1[2][2:-62],
+                    "description": "장학금 추천",
+                    "thumbnail": {
+                        "imageUrl": "https://github.com/seungukkim/flower75982/blob/main/image/%EC%9E%A5%ED%95%99%EA%B8%883.jpg?raw=true"
+                    },
+                    "buttons": [
+                        {
+                        "action": "webLink",
+                        "label": "구경하기",
+                        "webLinkUrl": list1[2][-58:-2]
+                        },
+                        
+                      
+                        {
+                        "action": "share",
+                        "label": "공유하기"
+                        }
+                        
+                        
+                        
+                    ]
+                    },
+                    {
+                    "title": list1[2][2:-62],
+                    "description": {
+                        "imageUrl":  "https://github.com/seungukkim/flower75982/blob/main/image/%EC%9E%A5%ED%95%99%EA%B8%883.jpg?raw=true"
+                    },
+                    "buttons": "webLink",
+                    "label": "구경하기",
+                    "webLink": list1[2][-58:-2]
+                    },
+                    {
+                    "action": share
+                    "label": "공유하기"
                     }
 
                     }
