@@ -12,10 +12,10 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello, World!'
 
-## 카카오톡 텍스트형 응답
+# 카카오톡 텍스트형 응답
 @app.route('/api/sayHello', methods=['POST'])
 def sayHello():
-    body = request.get_json()
+    body = request.get_json() # 사용자가 입력한 데이터
     print(body)
     print(body['userRequest']['utterance'])
 
