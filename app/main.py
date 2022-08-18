@@ -33,3 +33,8 @@ def sayHello():
     }
 
     return responseBody
+
+#카카오톡 입력받기
+@app.route('/api/gettext', methods=['POST'])
+def gettext():
+    body = request.get_json() # 사용자가 입력한 데이터
